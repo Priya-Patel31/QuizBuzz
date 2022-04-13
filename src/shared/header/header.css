@@ -35,3 +35,33 @@
     border: none;
     outline: 0;
   }
+  @media only screen and (max-width: 900px) {
+    .quiz-category-image {
+      width: 100%;
+    }
+    .search-bar-container {
+      width: 10rem;
+    }
+  }
+  @media only screen and (max-width: 540px) {
+    .logo-text{
+      font-size: 1.5rem;
+    }
+    .logo-image{
+      width:3rem;
+      height:3rem;
+    }
+    .user-image {
+      display: none;
+      flex: 0;
+    }
+    .user-image-container {
+      flex: 0;
+    }
+    .details-section1-container {
+      display: none;
+    }
+    .search-bar-container {
+      width: 5rem;
+    }
+  }
