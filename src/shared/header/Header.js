@@ -21,6 +21,7 @@ export const Header = () => {
 
       <div className="flex-row justify-center align-center">
         <div className="mr-2">
+          
           {/* Future reference */}
           {/* <Link to="/login">Login</Link> */}
         </div>
