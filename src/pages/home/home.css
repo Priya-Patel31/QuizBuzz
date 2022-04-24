@@ -1,0 +1,187 @@
+.homePage-container {
+    display: grid;
+    grid-template-rows: 6.25rem auto;
+  }
+  .sidebar {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    position: relative;
+    box-shadow: var(--shadow-color) 0px 0px 15px 0px;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    margin: 2rem 0 2rem 2rem;
+  }
+  .sidebar-list-item {
+    position: relative;
+    text-align: center;
+    background-color:var(--dark-color);
+    color: var(--light-color);
+    display: block;
+    width: 100%;
+    cursor:pointer;
+    border-radius:2rem;
+  }
+  .active{
+    background-color: var(--accent-color);
+    border-radius: 2rem;
+  
+  }
+  .logout {
+    position: absolute;
+    bottom: 32px;
+    left: 34%;
+    border-radius: 1rem;
+    background-color: var(--accent-color);
+    color: var(--light-color);
+    padding: 0.5rem 1rem;
+    transition: all ease-in-out 0.3s;
+  }
+  .logout:hover{
+    background-color:var(--light-color);
+    color:var(--accent-color);
+  }
+  .main-container {
+    display: grid;
+    grid-template-columns: 18.75rem auto;
+  }
+  .main-content-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: var(--secondary-color);
+    box-shadow: var(--shadow-color) 0px 0px 15px 0px;
+    border-radius: 1rem;
+    margin: 2rem;
+  }
+  .main-content-section1-container {
+    flex: 0.5;
+    max-width: 80rem;
+    gap: 1rem;
+  }
+
+  .user-image-container {
+    flex: 0.3;
+  }
+  .user-image-container img {
+    width: 10rem;
+    height: 10rem;
+  }
+  .details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+  }
+  .main-content-section2-container {
+    flex: 1;
+    max-width: 80rem;
+  }
+  .details-section2-container {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 50rem;
+  }
+  .score-container {
+    box-shadow: var(--shadow-color) 0px 0px 0px 2px,
+    var(--shadow-color) 0px 4px 6px -1px,
+    var(--shadow-color) 0px 1px 0px inset;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 1rem;
+  }
+  .main-content-section2-container {
+    gap: 1rem;
+  }
+  .user-achievements-container {
+    flex: 0.5;
+    box-shadow: var(--shadow-color) 0px 0px 0px 2px,
+    var(--shadow-color) 0px 4px 6px -1px,
+    var(--shadow-color) 0px 1px 0px inset;
+    border-radius: 1rem;
+  }
+  .quiz-categories-container {
+    flex: 0.5;
+    border-radius: 1rem;
+  }
+  .main-content-section2-card-container {
+    flex: 0.5;
+    max-width: 37.5rem;
+  }
+  .trophy-container {
+    gap: 1rem;
+    text-align: center;
+    width: 6.25rem;
+    margin: auto;
+  }
+  .component-image-square img {
+    border-radius: 1rem;
+    object-fit: cover;
+  }
+  .quiz-category-image {
+    position: relative;
+    width: 12.5rem;
+    cursor:pointer;
+    overflow:hidden;
+    border-radius: 1rem;
+  
+  }
+  .quiz-category-image p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-weight: 600;
+  }
+  .component-image-square img:hover{
+    transform:scale(1.2);
+    transition:all ease-out 1s;
+  }
+  @media only screen and (max-width: 1150px) {
+    .main-content-section2-container {
+      flex-direction: column;
+    }
+    .details-section2-container {
+      justify-content: space-around;
+    }
+    .main-content-section2-card-container {
+      max-width: 100%;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .sidebar {
+      display: none;
+    }
+    .main-content-container {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    .quiz-category-image {
+      width: 100%;
+    }
+    .search-bar-container {
+      width: 10rem;
+    }
+  }
+  @media only screen and (max-width: 540px) {
+    .logo-text{
+      font-size: 1.5rem;
+    }
+    .logo-image{
+      width:3rem;
+      height:3rem;
+    }
+    .user-image {
+      display: none;
+      flex: 0;
+    }
+    .user-image-container {
+      flex: 0;
+    }
+    .details-section1-container {
+      display: none;
+    }
+    .search-bar-container {
+      width: 5rem;
+    }
+  }
+  
