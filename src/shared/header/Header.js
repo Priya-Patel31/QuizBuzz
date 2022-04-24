@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
-import { Logo, Avatar } from "../../assests/images";
-import { BiSearch } from "../../assests/icons";
+import { Logo, Avatar } from "../../assets/images";
+import { BiSearch } from "../../assets/icons";
 
 export const Header = () => {
   return (
@@ -21,12 +21,14 @@ export const Header = () => {
 
       <div className="flex-row justify-center align-center">
         <div className="mr-2">
-          
           {/* Future reference */}
           {/* <Link to="/login">Login</Link> */}
         </div>
-        <div>
-          <img src={Avatar} alt="avatar" className="avatar medium-avatar" />
+        <div className="component-image-rounded user-sm-image">
+          <img
+            src={Avatar}
+            alt="avatar"
+          />
         </div>
       </div>
     </div>

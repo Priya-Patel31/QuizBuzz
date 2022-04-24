@@ -1,12 +1,13 @@
 import "./App.css";
-import { Header } from "./shared/header/Header";
+import { Home } from "./pages/home/Home";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <div class="homePage-container">
-        <Header />
-      </div>
+      <Routes>
+        <Route path="/" index element={<Home/>}/>
+      </Routes>
     </div>
   );
 }

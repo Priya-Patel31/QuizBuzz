@@ -35,10 +35,11 @@
     border: none;
     outline: 0;
   }
+  .user-sm-image img {
+    width: 4rem;
+    height: 4rem;
+  }
   @media only screen and (max-width: 900px) {
-    .quiz-category-image {
-      width: 100%;
-    }
     .search-bar-container {
       width: 10rem;
     }
