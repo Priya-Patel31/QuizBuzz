@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
-import { Logo, Avatar } from "../../assests/images";
-import { BiSearch } from "../../assests/icons";
+import { Logo, Avatar } from "../../assets/images";
+import { BiSearch } from "../../assets/icons";
 
 export const Header = () => {
   return (
@@ -24,11 +24,10 @@ export const Header = () => {
           {/* Future reference */}
           {/* <Link to="/login">Login</Link> */}
         </div>
-        <div>
+        <div className="component-image-rounded user-sm-image">
           <img
             src={Avatar}
             alt="avatar"
-            className="component-image-rounded user-sm-image"
           />
         </div>
       </div>
