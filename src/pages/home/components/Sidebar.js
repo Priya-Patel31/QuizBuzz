@@ -22,7 +22,7 @@ export const Sidebar = () => {
         </li>
       </ul>
 
-      <Link href="/" className="logout font-semibold text-xs">
+      <Link to="/" className="logout font-semibold text-xs">
         Logout
       </Link>
     </div>
