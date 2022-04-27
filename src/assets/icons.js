@@ -1,3 +1,8 @@
-import {BiSearch} from "react-icons/bi"
+import { BiSearch } from "react-icons/bi";
+import {
+  BsFillFlagFill,
+  BsFillClockFill,
+  BsCheckCircleFill,
+} from "react-icons/bs";
 
-export { BiSearch};
+export { BiSearch, BsFillFlagFill, BsFillClockFill, BsCheckCircleFill };
