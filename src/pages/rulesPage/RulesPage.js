@@ -1,6 +1,6 @@
 import React from "react";
 import { Header } from "../../shared/header/Header";
-import { Sidebar } from "../home/components/Sidebar";
+import { Sidebar } from "../../shared/sidebar/Sidebar";
 import { Link } from "react-router-dom";
 import { QuizImageDetails } from "../../shared/quizImageDetail/QuizImageDetails";
 import "./rulesPage.css"
@@ -34,7 +34,7 @@ export const RulesPage = () => {
               "Submit" button.
             </p>
             <br />
-            <Link to="/" className="button start-button my-2 font-semibold">
+            <Link to="/questions_page" className="button start-button my-2 font-semibold">
               Start
             </Link>
           </div>

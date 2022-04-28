@@ -1,0 +1,12 @@
+.question-page-container{
+    display: grid;
+    grid-template-rows: 6.25rem auto; 
+}
+.question-page-image-container{
+    overflow: hidden;
+    border-radius:1rem;
+}
+.radio-btn{
+    margin-right: 1rem;
+    cursor:pointer;
+}

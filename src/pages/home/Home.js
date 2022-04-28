@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import { Header } from "../../shared/header/Header";
-import { Sidebar } from "./components/Sidebar";
+import { Sidebar } from "../../shared/sidebar/Sidebar";
 import { HeroSection } from "./components/HeroSection";
 import { UserDetailContainer } from "./components/UserDetailContainer";
 
