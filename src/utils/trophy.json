@@ -1,0 +1,25 @@
+{
+  "categories": [
+      {
+          "id": 1,
+          "title": "Monuments",
+          "imageSrc" : "../assets/images/monument.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Monuments",
+        "imageSrc" : ""
+    },
+    {
+        "id": 3,
+        "title": "Monuments",
+        "imageSrc" : ""
+    },
+    {
+        "id": 4,
+        "title": "Monuments",
+        "imageSrc" : ""
+    }
+
+  ]
+}
