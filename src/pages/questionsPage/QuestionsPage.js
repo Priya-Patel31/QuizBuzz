@@ -87,7 +87,7 @@ export const QuestionsPage = () => {
 
             {/* FOR FUTURE REFERENCE */}
             {/* Till user doesn't reaches to last question show next then show result at last question */}
-            <Link to="/" className="button start-button my-2 font-semibold">
+            <Link to="/results_page" className="button start-button my-2 font-semibold">
               Next
             </Link>
           </div>
