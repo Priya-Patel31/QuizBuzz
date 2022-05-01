@@ -1,7 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../../context/auth/AuthContext";
 
 export const Sidebar = () => {
+  const navigate = useNavigate();
+  const {logout} = useAuth()
+  const logoutHandler = () =>  {
+   logout();
+   navigate("/")
+  }
   return (
     <div className="sidebar ml-2 p-2">
       <ul className="sidebar-unorderd-list">
@@ -22,9 +29,9 @@ export const Sidebar = () => {
         </li>
       </ul>
 
-      <Link to="/" className="logout font-semibold text-xs">
+      <button className="logout font-semibold text-xs" onClick={logoutHandler}>
         Logout
-      </Link>
+      </button>
     </div>
   );
 };
