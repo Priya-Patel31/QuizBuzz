@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.163856c3.chunk.css",
+    "main.js": "/static/js/main.e65c3546.chunk.js",
+    "main.js.map": "/static/js/main.e65c3546.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7fe2a3c8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7fe2a3c8.js.map",
+    "static/js/2.b3e6daa4.chunk.js": "/static/js/2.b3e6daa4.chunk.js",
+    "static/js/2.b3e6daa4.chunk.js.map": "/static/js/2.b3e6daa4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.163856c3.chunk.css.map": "/static/css/main.163856c3.chunk.css.map",
+    "static/js/2.b3e6daa4.chunk.js.LICENSE.txt": "/static/js/2.b3e6daa4.chunk.js.LICENSE.txt",
+    "static/media/animal.8e41e014.jpg": "/static/media/animal.8e41e014.jpg",
+    "static/media/avatar.337e11ed.svg": "/static/media/avatar.337e11ed.svg",
+    "static/media/logo3.a2d8d427.png": "/static/media/logo3.a2d8d427.png",
+    "static/media/medal3.764d80fc.png": "/static/media/medal3.764d80fc.png",
+    "static/media/monument.57dbb6c3.jpg": "/static/media/monument.57dbb6c3.jpg",
+    "static/media/mountain.1e4bb9f0.jpg": "/static/media/mountain.1e4bb9f0.jpg",
+    "static/media/museum.dde13109.jpg": "/static/media/museum.dde13109.jpg",
+    "static/media/signin.29b013f5.svg": "/static/media/signin.29b013f5.svg",
+    "static/media/signup.db47103c.svg": "/static/media/signup.db47103c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fe2a3c8.js",
+    "static/js/2.b3e6daa4.chunk.js",
+    "static/css/main.163856c3.chunk.css",
+    "static/js/main.e65c3546.chunk.js"
+  ]
+}
