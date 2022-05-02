@@ -45,6 +45,7 @@ export const Login = () => {
           <div className="wrapper p-2 my-2 flex-col">
             <h2 className="my-2 form-heading text-sm">Signin</h2>
             <form
+            
               className="signup-form-container flex-col"
               onSubmit={(e) =>
                 loginHandler(e, formData.email, formData.password)
