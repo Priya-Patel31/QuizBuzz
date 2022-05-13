@@ -8,10 +8,14 @@ import { ResultsPage } from "./pages/resultsPage/ResultsPage";
 import { Login } from "./pages/authentication/login/Login";
 import { Signup } from "./pages/authentication/signup/Signup";
 import { PrivateRoute } from "./shared/privateRoute/PrivateRoute";
+import { ToastContainer} from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function App() {
   return (
     <div className="App">
+       <ToastContainer theme="coloured"/>
       <Routes>
         <Route path="/mockman" element={<MockAPI />} />
         <Route path="/" index element={<Login />} />
@@ -20,9 +24,9 @@ function App() {
         <Route path="/home" element={<Home />} />
 
         <Route
-          path="/rules_page"
+          path="/rules_page/:id"
           element={
-            <PrivateRoute path="/rules_page">
+            <PrivateRoute path="/rules_page/:id">
               <RulesPage />
             </PrivateRoute>
           }

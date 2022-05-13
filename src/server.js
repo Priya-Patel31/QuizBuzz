@@ -55,7 +55,7 @@ export function makeServer({ environment = "development" } = {}) {
 
   
       //quiz routes
-      this.get("quiz/:quizId", getQuizById.bind(this));
+      this.get("/quiz/:quizId", getQuizById.bind(this));
     },
   });
 
