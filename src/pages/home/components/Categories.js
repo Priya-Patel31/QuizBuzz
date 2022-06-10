@@ -9,7 +9,7 @@ export const Categories = () => {
       <div className="quiz-categories-container flex-col">
         <div className="quiz-category-card-group-container flex-row justify-around mt-2">
           <Link
-            to="/rules_page"
+            to="/rules_page/1" state={{name : "Mountains" ,imageUrl: Mountain}}
             className="quiz-category-image component-image-square mx-1"
           >
             <img src={Mountain} alt="mountain" />
@@ -17,7 +17,7 @@ export const Categories = () => {
           </Link>
 
           <Link
-            to="/rules_page"
+            to="/rules_page/2" state={{name: "Monuments" , imageUrl : Monument}}
             className="quiz-category-image component-image-square mx-1"
           >
             <img src={Monument} alt="monument" />
@@ -26,14 +26,14 @@ export const Categories = () => {
         </div>
         <div className="quiz-category-card-group-container flex-row justify-around mt-2">
           <Link
-            to="/rules-page"
+            to="/rules_page/3" state={{name: "Museums" , imageUrl : Museum}}
             className="quiz-category-image component-image-square mx-1"
           >
             <img src={Museum} alt="museum" />
             <p>Museums</p>
           </Link>
           <Link
-            to="/rules_page"
+            to="/rules_page/4" state={{name: "Animals" , imageUrl : Animal}}
             className="quiz-category-image component-image-square mx-1"
           >
             <img src={Animal} alt="animal" />

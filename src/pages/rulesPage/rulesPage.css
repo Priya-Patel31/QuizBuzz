@@ -41,6 +41,9 @@
   color: var(--light-color);
   display: inline-block;
 }
+.start-button:disabled {
+  opacity: 0.4;
+}
 .start-button:hover{
   background-color:var(--light-color);
   color:var(--accent-color);
