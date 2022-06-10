@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# QuizBuzz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+QuizBuzz is a responsive  application that allows one to play quiz online . This app will also have different categories .
+ 
+ <img width="947" alt="quiz" src="https://user-images.githubusercontent.com/83440686/154954696-2644b051-1a04-4e99-921e-b38b8d08f011.png">
 
-## Available Scripts
+# Features 
 
-In the project directory, you can run:
 
-### `npm start`
+### This app have following features which are listed below :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Login : User can create account , if you already have an account then login . If you forgot the password then that could also be changed.
+- Quizzes by category : User can choose from different category which quiz he/she wants to play .
+- Rules  : Before starting any quiz rules will be explained to users.
+- Multiple type : Image and videos can also be added to each queastion to attract users attention.
+- Question : It will contain different questions based on the category choosen by user.
+- Result : Result page will show all the questions with correct answer and also show users answer is correct or not.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### Screens 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Home Page : https://quizbuzzzz.netlify.app/home
+- Rules Page : https://quizbuzzzz.netlify.app/rules_page/1
+- Questions page : https://quizbuzzzz.netlify.app/questions_page
+- Results Page :  https://quizbuzzzz.netlify.app/results_page
+- Signup: https://quizbuzzzz.netlify.app/signup
+- Signin : https://quizbuzzzz.netlify.app/
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
