@@ -25,7 +25,6 @@ const QuizContextProvider = ({ children }) => {
     dispatch({ type: "SET_QUIZ", payload: { quiz } });
   };
 
-  console.log(state);
   return (
     <QuizContext.Provider value={{ getQuizById, state, dispatch }}>
       {children}

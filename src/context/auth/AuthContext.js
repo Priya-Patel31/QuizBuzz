@@ -1,4 +1,5 @@
 import { createContext, useContext, useReducer } from "react";
+import { toast } from "react-toastify";
 import { loginApi, signupApi } from "../../services/authServices";
 import { reducer } from "./AuthReducer";
 
@@ -31,10 +32,13 @@ const AuthContextProvider = ({ children }) => {
           user: data.createdUser,
         },
       });
+      toast.success("Signed up Successfully !!")
       return true;
     }
+    toast.error("User already exists");
     return false;
   };
+  
 
   const login = async ({ email, password }) => {
     const { data, success } = await loginApi({ email, password });
@@ -47,18 +51,21 @@ const AuthContextProvider = ({ children }) => {
           user: data.foundUser,
         },
       });
+      toast.success("Login successful")
       return true;
     }
+    toast.error("Wrong credentials");
     return false;
   };
   const logout = () => {
     dispatch({
       type: "LOGOUT_USER",
     });
+    toast.success("Logged out !!")
   };
   return (
     <AuthContext.Provider
-      value={{ isUserloggedIn, token, signup, login, logout }}
+      value={{ isUserloggedIn, token, signup, login, logout ,user}}
     >
       {children}
     </AuthContext.Provider>
