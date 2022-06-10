@@ -10,6 +10,7 @@ import {
 import { Signin } from "../../../assets/images";
 import "../authentication.css";
 import { useAuth } from "../../../context/auth/AuthContext";
+import { toast } from "react-toastify";
 
 export const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -20,7 +21,7 @@ export const Login = () => {
   let navigate = useNavigate();
   let location = useLocation();
   let { login } = useAuth();
-  console.log(location);
+ 
   const handleOnChange = (e) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
@@ -29,10 +30,9 @@ export const Login = () => {
     const success = await login({ email, password });
     if (success) {
       navigate(location.state?.from ?? "/home");
-      //FOR FUTURE REFERENCE
-      //   toast.success("Login successful");
+        toast.success("Login successful");
     } else {
-      //   toast.error("Wrong credentials");
+        toast.error("Wrong credentials");
     }
   };
   return (

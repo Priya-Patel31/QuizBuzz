@@ -51,10 +51,8 @@ const AuthContextProvider = ({ children }) => {
           user: data.foundUser,
         },
       });
-      toast.success("Login successful")
       return true;
     }
-    toast.error("Wrong credentials");
     return false;
   };
   const logout = () => {

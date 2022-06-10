@@ -6,7 +6,6 @@ export const getQuizById = function (schema, request) {
     const quiz = schema.quizzes.findBy({ _id: quizId })
     return new Response(200, {}, { quiz });
   } catch (error) {
-    console.log(error);
     return new Response(
       404,
       {},
