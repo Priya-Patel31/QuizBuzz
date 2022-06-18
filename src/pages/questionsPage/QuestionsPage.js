@@ -22,7 +22,6 @@ export const QuestionsPage = () => {
         <div className="main-content-container flex-col p-2 m-2">
           <div className="flex-row justify-between">
             <h2 className="pt-2">Quiz on {quizName}</h2>
-            <h2 className="pt-2">Timer: 23:41Mins</h2>
           </div>
           <p className="my-2">Answer the question below</p>
           <div className="quiz-image-details-container">
